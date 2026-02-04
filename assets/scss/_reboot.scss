@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth;
+}
+.lh-0 {
+  line-height: 0;
+}
+.lh-in {
+  line-height: inherit;
+}
+
+.text-deconraion-none {
+  text-decoration: none;
+}
+
+.hover-opacity-100 {
+  &:hover {
+    opacity: 1 !important;
+  }
+
+}
+
+.w-64 {
+  width: 64px;
+}
+
+.hover-primary-title {
+  &:hover {
+    .title {
+      color: rgb(var(--v-theme-primary));
+    }
+  }
+}
+
+.obj-cover {
+  object-fit: cover;
+}
+.hover-primary-link{
+  &:hover{
+     color: rgb(var(--v-theme-primary)) !important;
+  }
+}
+
+.list-style-none{
+  list-style: none;
+  margin-left: 0;
+}
+
+.hover-opacity-1{
+  &:hover{
+    opacity: 1 !important;
+  }
+}
+
+/* Dark mode: Force text visibility */
+.v-application.dark {
+  /* Remove opacity constraints */
+  [class*="opacity-"] {
+    opacity: 1 !important;
+  }
+
+  /* Force all text elements to white */
+  h1, h2, h3, h4, h5, h6 {
+    color: rgb(var(--v-theme-white)) !important;
+  }
+
+  p {
+    color: rgb(var(--v-theme-white)) !important;
+  }
+
+  span {
+    color: rgb(var(--v-theme-white)) !important;
+  }
+
+  label {
+    color: rgba(var(--v-theme-white), 0.7) !important;
+  }
+
+  /* Text utility classes */
+  .text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6,
+  .text-subtitle-1, .text-subtitle-2,
+  .text-body-1, .text-body-2,
+  .text-60 {
+    color: rgb(var(--v-theme-white)) !important;
+  }
+
+  /* Explicit color classes */
+  .text-dark,
+  .text-white,
+  .text-secondary {
+    color: rgb(var(--v-theme-white)) !important;
+  }
+}
+
+
