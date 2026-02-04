@@ -32,7 +32,7 @@ import { Icon } from "@iconify/vue";
               method="POST"
             >
               <!-- Web3Forms Access Key -->
-              <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+              <input type="hidden" name="access_key" value="13b2b3e9-d628-4dff-94cd-ea5bcac5d37c">
               <input type="hidden" name="redirect" value="https://web3forms.com/success">
               
               <v-text-field
